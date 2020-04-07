@@ -1,0 +1,73 @@
+body, html{
+    margin: 0px;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Rubik Mono One', serif;
+    color: #122C34;
+}
+
+.about{
+    font-family: 'Rubik Mono One', serif;
+    color: #4E6E58;
+    border: 4px solid #89BD9E;
+    padding: 6px;
+    width: 90%;
+    margin: 8px;
+    align-self: center;
+    justify-self: center;
+}
+
+.employment{
+    font-family: 'Rubik Mono One', serif;
+    border: 4px solid #89BD9E;
+    color: #4E6E58;
+    width: 90%;
+    margin: 5px;
+}
+
+.education{
+    font-family: 'Rubik Mono One', serif;
+    border: 4px solid #89BD9E;
+    color: #4E6E58;
+    width: 90%;
+    margin: 5px;
+}
+
+.skills{
+    font-family: 'Rubik Mono One', serif;
+    border: 4px solid #89BD9E;
+    color: #4E6E58;
+    width: 90%;
+    margin: 5px;
+}
+
+.personal{
+    font-family: 'Rubik Mono One', serif;
+    border: 4px solid #89BD9E;
+    color: #4E6E58;
+    width: 90%;
+    margin: 5px;
+    align-self: center;
+    justify-self: center;
+}
+
+.contact{
+    font-family: 'Rubik Mono One', serif;
+    border: 4px solid #89BD9E;
+    color: #4E6E58;
+    width: 90%;
+    margin: 5px;
+}
+
+.grid1, .grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.smallgrid1, .smallgrid2{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
