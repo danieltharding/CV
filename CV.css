@@ -1,0 +1,56 @@
+body, html{
+    margin: 0px;
+    width: 100%;
+    background:rgba(50, 50, 50, 0.1);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Rubik Mono One', serif;
+    color: #122C34;
+}
+
+h2{
+    font-family: 'Rubik Mono One', serif;
+    color: #4E6E58;
+    padding: 0px 15px;
+}
+
+.everything{
+    font-family: 'Rubik Mono One', serif;
+    color: #4E6E58;
+    border: 4px solid #89BD9E;
+    width: 90%;
+    padding: 10px;
+    justify-self: center;
+}
+
+#grid1,#grid2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#document{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button{
+    font-family: 'Rubik Mono One', serif;
+    border:3px dotted #122C34;
+    font-size: 1.5em;
+    color: #4E6E58;
+    align-self: center;
+    transition: all 1.5s;
+}
+
+#button:hover{
+    transform: scale(1.3);
+}
