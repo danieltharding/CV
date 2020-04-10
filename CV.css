@@ -25,15 +25,20 @@ h2{
     justify-self: center;
 }
 
+
 #grid2{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: fit-content;
 }
 
 #grid1{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    height: fit-content;
 }
+
+
 
 .container{
     display: grid;
@@ -54,6 +59,10 @@ h2{
     color: #4E6E58;
     align-self: center;
     transition: all 1.5s;
+}
+li{
+    padding: 5px 0px;
+    word-spacing: 0.5em;
 }
 
 #button:hover{
