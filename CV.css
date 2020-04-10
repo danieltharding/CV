@@ -25,7 +25,12 @@ h2{
     justify-self: center;
 }
 
-#grid1,#grid2{
+#grid2{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+#grid1{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
 }

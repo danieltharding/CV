@@ -128,6 +128,7 @@ footer{
     align-items:center;
 }
 
+
 ul{
     display: flex;
     justify-content: center;
@@ -137,7 +138,37 @@ ul{
 
 #email{
     text-decoration: none;
+    font-size: 1.3em;
     background:#122C34;
     color: white;
     border: none;
+}
+
+#popUp{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top:0%;
+}
+
+.popUp{
+    visibility: hidden;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    top:0;
+}
+
+.popUpShow{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    word-spacing: normal;
+    background: black;
+    padding: 10px;
+    color: White;
+    height: 10%;
+    width:20%
 }

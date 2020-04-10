@@ -1,5 +1,6 @@
 var button = document.getElementsByClassName("CV")[0];
 var email = document.getElementById("email");
+var popUp = document.getElementsByClassName("popUp")[0];
 
 const openNewPage = () => {
     window.location="CV.html";
@@ -12,6 +13,9 @@ const addToClipBoard = () =>{
     dummy.select();
     document.execCommand("copy");
     document.body.removeChild(dummy);
+    popUp.className = ("popUpShow");
+    setTimeout(()=>{popUp.className="popUp"}, 3000);
+    
 }
 
 
