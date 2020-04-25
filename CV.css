@@ -28,15 +28,16 @@ h2{
 
 #grid2{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.75fr 1fr 1fr 0.75fr;
     height: fit-content;
 }
 
 #grid1{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr;
     height: fit-content;
 }
+
 
 
 
